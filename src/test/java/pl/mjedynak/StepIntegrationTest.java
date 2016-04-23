@@ -14,7 +14,7 @@ import static org.junit.Assert.assertThat;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {BatchConfiguration.class, TestConfiguration.class})
-public class JobIntegrationTest {
+public class StepIntegrationTest {
 
     @Autowired
     private JobLauncherTestUtils jobLauncherTestUtils;
